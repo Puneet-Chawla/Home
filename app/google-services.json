@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "900024134397",
+    "firebase_url": "https://hsar-ea47b.firebaseio.com",
+    "project_id": "hsar-ea47b",
+    "storage_bucket": "hsar-ea47b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900024134397:android:34cb8f159c36b817",
+        "android_client_info": {
+          "package_name": "com.example.student.hsar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900024134397-40g33ticrmogql5pgfube5j4me4130hf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.student.hsar",
+            "certificate_hash": "9add40085fca9081a1a55881a45f3ebb22de984b"
+          }
+        },
+        {
+          "client_id": "900024134397-47844qbn1fberpj051u29149akhme3l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSpVbaT2K2LgSg2N0oFlaY4wBmAhQAvqU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900024134397-47844qbn1fberpj051u29149akhme3l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

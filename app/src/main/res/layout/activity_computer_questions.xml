@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ac_questions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.hsar.ComputerQuestions">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Which type of PC units do you need help with?"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desktop"
+                android:id="@+id/typePc1"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laptop"
+                android:id="@+id/typePc2"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="printer"
+                android:id="@+id/typePc3"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="OR any other device"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/other"/>
+
+            <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+                android:textAlignment="center"
+    android:text="Issue with the device"
+    android:textStyle="bold"
+    android:textSize="18dp"
+    android:layout_marginTop="10dp"
+/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/issue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:text="Add your mobile number"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/phone"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:text="Add your address"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:id="@+id/address"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:text="Landmark"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/landmark"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="10dp"
+                android:onClick="addComputer"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

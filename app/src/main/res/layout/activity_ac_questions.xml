@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ac_questions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.hsar.AcQuestions">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Which type of AC units do you need help with?"
+        android:textStyle="bold"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Window Ac"
+            android:id="@+id/typeAc1"
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Split Ac"
+            android:id="@+id/typeAc2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:text="Please select the type of service(s) you need for AC "
+            android:textStyle="bold"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wet Servicing"
+            android:id="@+id/service1"/>
+        <CheckBox
+            android:id="@+id/service2"
+            android:layout_width="match_parent"
+            android:text="Installation AC unit(s)"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/service3"
+            android:layout_width="match_parent"
+            android:text="Unistall existing AC unit(s)"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/service4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repairs (Diagnosis and rectification of AC(s))"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:text="How many split AC(s) need wet sevicing?"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="add a number eg : 0"
+            android:inputType="number"
+            android:id="@+id/need1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:text="How many AC(s) need installation?"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="add a number eg : 0"
+            android:id="@+id/need2"
+            android:inputType="number"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:text="How many AC(s) need uninstallation?"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/need3"
+            android:hint="add a number"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:text="How many AC(s) need repairing?"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="add a number"
+            android:id="@+id/need4"
+            android:inputType="number"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="18dp"
+    android:layout_marginTop="10dp"
+    android:text="Add your mobile number"
+    />
+
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:inputType="number"
+     android:id="@+id/phone"
+     android:layout_marginTop="10dp"
+     android:hint="add your phone number"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Add your address"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/address"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Landmark"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/landmark"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="20dp"
+            android:onClick="addData"/>
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

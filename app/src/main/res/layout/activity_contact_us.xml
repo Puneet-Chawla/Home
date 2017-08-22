@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.student.hsar.ContactUs">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Id"
+                android:textSize="@dimen/caption"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#15c1df"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textIsSelectable="true"
+                android:text="hsarhelp@gmail.com"
+                android:textSize="@dimen/text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile number"
+                android:textSize="@dimen/caption"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#15c1df"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="123445"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text"/>
+        </LinearLayout>
+    </ScrollView>
+
+

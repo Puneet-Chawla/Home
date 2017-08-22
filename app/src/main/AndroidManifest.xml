@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.hsar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Plumber" />
+        <activity android:name=".Electrical" />
+        <activity android:name=".Ac" />
+        <activity android:name=".Ro" />
+        <activity android:name=".Electronics" />
+        <activity android:name=".Carpanter" />
+        <activity android:name=".Painter" />
+        <activity android:name=".Computer" />
+        <activity android:name=".pm" />
+        <activity android:name=".AcQuestions" />
+        <activity android:name=".CarpenterQuestions" />
+        <activity android:name=".ComputerQuestions" />
+        <activity android:name=".ElectricalQuestions" />
+        <activity android:name=".ElectronicQuestions" />
+        <activity android:name=".PainterQuestions" />
+        <activity android:name=".PlumberQuestions" />
+        <activity android:name=".pmQuestions" />
+        <activity android:name=".RoQuestions" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ContactUs" />
+        <activity android:name=".FeedBack" />
+        <activity android:name=".Fridge" />
+        <activity android:name=".FridgeQuestions"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ac_questions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.hsar.FridgeQuestions">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"> <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Servicing required for:"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Single Door"
+                android:textSize="13dp"
+                android:id="@+id/n1"/>
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Double Door"
+                android:textSize="13dp"
+                android:id="@+id/n2"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="French Door Refrigerator"
+                android:textSize="13dp"
+                android:id="@+id/n3"/>
+
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Side by Side"
+                android:textSize="13dp"
+                android:id="@+id/n4"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bottom Freezer"
+                android:textSize="13dp"
+                android:id="@+id/n5"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="OR"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/other1"
+            android:hint="specify problem(s) "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:text="Number of appliances to repair"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:id="@+id/repair"
+            android:hint="0"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Add your phone number"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone1"
+            android:inputType="number"
+            android:textSize="13dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Add your address"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:id="@+id/address1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Landmark"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/landmark"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="addData"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

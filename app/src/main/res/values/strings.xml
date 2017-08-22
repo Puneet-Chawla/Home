@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Hsar</string>
+    <string name="action_settings">Contact Us</string>
+    <string name="feed">Rate Service</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="text_label_1">Rate</string>
+    <string name="button_label">Submit</string>
+    <string name="text_label_2">Result: </string>
+    <string name="title_activity_scrolling">Electrician</string>
+    <string name="large_text">"WTF"</string>
+    <string name="wetwindow">
+        \.Gas pressure will be checked before start of service\n\.Filter,drain pipe and outer panel will be cleaned
+        \.Cooling coils and condenser coils will be cleaned
+        \.Any water leakage in the drains will be checked carefully
+        \.Performance of the AC will be checked post service
+    </string>
+    <string name="wetsplit">
+        \. Gas pressure will be checked before start of the service
+        \. Outdoor unit will be checked for any debris, and it will be cleaned
+        \. Filter, drain tray and outer panel will be cleaned
+        \. Blower wheels, blades and cooling coils will be cleaned
+        \. Any water leakage in drain pipe will be checked carefully
+        \. High pressure jet pumps, will not be used for this service
+        \. Performance of the AC will be checked post service
+
+    </string>
+    <string name="installsplit">
+        \. Prices mentioneed are only labour cost,spare parts
+           cost will be extra
+        \. The professionals do not carry chairs and stools
+           and may ask for them during servicing and installations.
+        \.Basis on the thickness and the internal filling of
+          the wall sometimes the professionals need to use
+          core cutting machine for making the provision for
+          split AC and the charges for the same will be
+          charged at actual.
+    </string>
+    <string name="installwindow">
+        \. Provision for installing window AC in the wall or the
+           window needs to be done by a carpanter or a mason.
+           AC professionals will not do this.
+        \. AC will be installed by professionals, and
+           its performance will be checked
+        \. Gas pressure will be checked post installation
+    </string>
+    <string name="uninstall">
+        \. AC will be checked once before unistallation
+        \. In-case of window AC, the provision needs to
+           be closed by the customer
+    </string>
+
+    <string name="price">
+        \. Fixed charge for installation, uninstallation and servicing
+        \. Repair Services:- Pricing will be based on inspection
+        </string>
+    <array name="list">
+        <item>Fans</item>
+        <item>Coolers</item>
+        <item>Washing Machine</item>
+        <item>Iron</item>
+        <item>Gyser</item>
+        <item>Inverter</item>
+        <item>Motor</item>
+        <item>Juicer</item>
+        <item>Wiring</item>
+    </array>
+    <array name="list1">
+        <item>Electrical</item>
+        <item>Plumber</item>
+        <item>AC Technician</item>
+        <item>RO</item>
+        <item>Electronics</item>
+        <item>Carpenter</item>
+        <item>Painter</item>
+        <item>Computer and Printer</item>
+        <item>Packers and Movers</item>
+    </array>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">HOME</string>
+    <string name="slide_1_desc">Get Placed With Our Help!</string>
+
+    <string name="slide_2_title">OFF CAMPUS</string>
+    <string name="slide_2_desc">Get Placed No Matter Where!</string>
+
+    <string name="slide_3_title">ON CAMPUS</string>
+    <string name="slide_3_desc">Get Placed From Your College Campus!</string>
+
+    <string name="slide_4_title">Walk In</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

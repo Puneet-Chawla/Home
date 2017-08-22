@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_electrical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="com.example.student.hsar.Electrical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            app:srcCompat="@drawable/acrepair"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/caption"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Wet Servicing - Window AC"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"
+            android:text="300 Rupees(including visiting charges 50 INR)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="1mm"
+            android:textColor="#ffffff"
+            android:text="_________________________________________________________________________________________________________________"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wetwindow"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/caption"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Wet Servicing - Split AC"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"
+            android:text="400 Rupees(including visiting charges 100 Rs)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="1mm"
+            android:textColor="#ffffff"
+            android:text="_________________________________________________________________________________________________________________"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wetwindow"
+
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/caption"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Installation - Split AC"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="1mm"
+            android:textColor="#ffffff"
+            android:text="_________________________________________________________________________________________________________________"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/installsplit"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/caption"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Installation - Window AC"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="1mm"
+            android:textColor="#ffffff"
+            android:text="_________________________________________________________________________________________________________________"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/installwindow"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/caption"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Un-installation"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="1mm"
+            android:textColor="#ffffff"
+            android:text="_________________________________________________________________________________________________________________"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/uninstall"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/caption"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Gas Charging"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"
+            android:text="2200 Rupees(incl. visiting charges 200 Rs)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"
+            android:text="2500 Rupees(incl. visiting charges 300 Rs)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="1mm"
+            android:textColor="#ffffff"
+            android:text="_________________________________________________________________________________________________________________"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" \.Leakage will be checked before gas charging\n\. If there is a leakage: 80% of the time, AC can be fixed on-site\n 20% of the time AC might have to be\ntaken back to professional\'s place for a day or  two"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/caption"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Pricing"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="1mm"
+            android:textColor="#ffffff"
+            android:text="_________________________________________________________________________________________________________________"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textAlignment="center"
+            android:textSize="@dimen/text"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule a Service"
+        android:layout_marginTop="20dp"
+        android:onClick="scheduleAc"/>
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
